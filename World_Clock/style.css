@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .clock {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.clocks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.clock {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 20px;
+}
+
+.clock h2 {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.time {
+  font-size: 2em;
+  color: #000;
+  margin: 0;
+}
+
+.add-clock {
+  margin-bottom: 20px;
+}
+
+#timezone-select {
+  padding: 5px;
+  font-size: 1em;
+}
+
+#add-clock-button {
+  padding: 5px 10px;
+  font-size: 1em;
+  margin-left: 10px;
+  cursor: pointer;
+}
